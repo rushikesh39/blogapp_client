@@ -32,7 +32,7 @@ function App() {
       console.error("Error fetching data:", error);
     }
   };
-  console.log(data);
+ 
   return (
     <div className="App">
       <Suspense fallback={<div className="loader"><Circles height="100" width="100"  color="green" ariaLabel="loading"/></div>}>
