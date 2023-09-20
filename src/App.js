@@ -13,27 +13,17 @@ import Food from "./Routes/Food";
 import DynamicPage from "./Component/DynamicPage/DynamicPage";
 import axios from "axios";
 import { useEffect } from "react";
-<<<<<<< HEAD
 import Home from "./Routes/Home"
 import { Circles } from 'react-loader-spinner';
 
 function App() {
   const [isloading ,setIsloading]=useState(false)
-=======
-import { lazy, Suspense } from "react";
-import { Circles } from 'react-loader-spinner';
-
-const Home=lazy(()=>import("./Routes/Home"))
-function App() {
-  // const [data, setData] = useState(Data);
->>>>>>> origin/main
   const [data, setData] = useState(null);
   useEffect(() => {
     fetchData();
   }, []);
 
   const fetchData = async () => {
-<<<<<<< HEAD
     setIsloading(true)
     try {
       const response = await axios.get("https://blogapp-backend-1pur.onrender.com/data");
@@ -50,19 +40,6 @@ function App() {
   return (
     <div className="App">
       {isloading&&<div className="loader"><Circles height="100" width="100"  color="gray" ariaLabel="loading"/></div>}
-=======
-    try {
-      const response = await axios.get("https://blogapp-backend-1pur.onrender.com/data");
-      setData(response.data); // Update state with the fetched data
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-  };
- 
-  return (
-    <div className="App">
-      <Suspense fallback={<div className="loader"><Circles height="100" width="100"  color="green" ariaLabel="loading"/></div>}>
->>>>>>> origin/main
       {data && (
         <BrowserRouter>
           <store.Provider value={{ StoreData: data, StoreDataF: setData }}>
@@ -149,17 +126,9 @@ function App() {
           </Routes>
         </BrowserRouter>
       )}
-<<<<<<< HEAD
       {/* </Suspense> */}
-=======
-      </Suspense>
->>>>>>> origin/main
     </div>
   );
 }
 
-<<<<<<< HEAD
 export default App;
-=======
-export default App;
->>>>>>> origin/main
