@@ -2,7 +2,10 @@
   /* text-align: center; */
   width: 80%;
   margin: auto;
+<<<<<<< HEAD
   position: relative;
+=======
+>>>>>>> origin/main
 }
 
 .App-logo {
@@ -45,9 +48,19 @@
   }
 }
 .loader{
+<<<<<<< HEAD
   position: fixed;
   top: 50vh;
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: 1;
 }
+=======
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+>>>>>>> origin/main

@@ -118,8 +118,13 @@ function DynamicPage() {
       <hr />
       <div className="random-card">
         <RandomComponent data={categaryData} />
+<<<<<<< HEAD
         {/* <RandomComponent data={categaryData} />
         <RandomComponent data={categaryData} /> */}
+=======
+        <RandomComponent data={categaryData} />
+        <RandomComponent data={categaryData} />
+>>>>>>> origin/main
       </div>
     </div>
   );
