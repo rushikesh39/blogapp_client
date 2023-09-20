@@ -1,0 +1,34 @@
+.mobile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:auto;
+  font-size: small;
+  /* border-bottom: 2px solid gray; */
+  margin-bottom: 5px;
+  }
+  .icon{
+    font-size: 25px;
+    margin-right: 10px;
+    /* position: relative;
+    width: 200px; */
+   
+  }
+  .shownav{
+    border-top: 2px solid gray;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  .shownav a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  /* .shownav a:hover{
+    background-color: gray;
+    color: white;
+  } */
+ .shownav hr{
+    width: 95%;
+ }

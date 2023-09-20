@@ -1,0 +1,14 @@
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo div{
+    margin: 5px;
+}
+.subheading{
+    /* color:red; */
+    transform: rotate(-90deg);
+}
