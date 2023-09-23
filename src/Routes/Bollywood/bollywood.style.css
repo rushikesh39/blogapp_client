@@ -72,6 +72,8 @@
 }
 .Advertistement{
     height: 600px;
+    position: sticky;
+    top: 50px;
 }
 .Advertistement img{
     width: 100%;
