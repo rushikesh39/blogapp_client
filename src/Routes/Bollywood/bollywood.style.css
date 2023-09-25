@@ -72,12 +72,15 @@
 }
 .Advertistement{
     height: 600px;
-    position: sticky;
-    top: 50px;
+    
 }
 .Advertistement img{
     width: 100%;
     height: 100%;
+}
+.bollywooditem2 .Advertistement{
+    position: sticky;
+    top: 50px;
 }
 @media (max-width:850px) {
     .bollywooditem1{
