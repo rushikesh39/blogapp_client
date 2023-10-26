@@ -26,7 +26,7 @@ function App() {
   const fetchData = async () => {
     setIsloading(true)
     try {
-      const response = await axios.get("https://blogapp-backend-1pur.onrender.com/data");
+      const response = await axios.get("https://blog-server-mw5g.onrender.com/data");
       setData(response.data); // Update state with the fetched data
       setIsloading(false)
      
